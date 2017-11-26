@@ -1,18 +1,18 @@
 <?php
-require_once __DIR__.'/gplus-lib/vendor/autoload.php';
+require_once __DIR__.'/authgoogle/vendor/autoload.php';
 const CLIENT_ID = '449674911638-afs89gdh2nf1aqoetb29g64n7ju61vrr.apps.googleusercontent.com';
 const CLIENT_SECRET = 'wGp9d1IFsW4EIZ_pTkJ6Q0Nz';
-const REDIRECT_URI = 'http://app.suyo.io/index.php';
+const REDIRECT_URI = 'http://platform.suyo.io/index.php';
 
 session_start();
 
-include('browser_class_inc.php');
+//include('browser_class_inc.php');
 
-$br = new browser();
+/*$br = new browser();
 $br->whatBrowser();
 $version = $br->version;
 $navegador = $br->browsertype;
-$platform = $br->platform;
+$platform = $br->platform;*/
 
 
 $client = new Google_Client();

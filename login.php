@@ -54,7 +54,7 @@
                    <CENTER><font size='+2'><b>INICIAR SESIÓN</b></font></CENTER> 
                     <div class="form-group">
                        <BR> <BR>
-                           <a class='login' href='<?php echo $authUrl  ?>'><img src='gplus-lib/signin_button.png' height='150px'/></a>
+                           <a class='login' href='<?php echo $authUrl  ?>'><img src='authgoogle/signin_button.png' height='150px'/></a>
                 
     <?php
                 if($access==2)
